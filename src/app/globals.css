@@ -1,4 +1,4 @@
-@import "bulma/bulma.scss";
+@import "bulma";
 
 @tailwind base;
 @tailwind components;
