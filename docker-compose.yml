@@ -1,0 +1,13 @@
+
+services:
+
+  app:
+    container_name: nextjs-web-app
+    ports:
+      - "3000:3000"
+    build:
+      dockerfile: ./Dockerfile
+    command:
+      - npm run start
+    environment:
+      - NODE_ENV=production
