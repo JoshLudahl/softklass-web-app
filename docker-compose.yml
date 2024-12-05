@@ -6,8 +6,8 @@ services:
     ports:
       - "3000:3000"
     build:
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile
     command:
-      - npm run start
+      - 'npm run start'
     environment:
       - NODE_ENV=production
